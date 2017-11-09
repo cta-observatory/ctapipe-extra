@@ -7,14 +7,14 @@
 # - {name: mirror_area, unit: m2, datatype: float64}
 # - {name: mirror_type, datatype: string}
 # - {name: num_mirror_tiles, datatype: int64}
-# - {name: effective_focal_length, unit: m, datatype: float64}
+# - {name: equivalent_focal_length, unit: m, datatype: float64}
 # meta: !!omap
 # - {ORIGIN: ctapipe.inst.SubarrayDescription}
 # - {SUBARRAY: MonteCarloArray}
 # - {SOFT_VER: 0.5.1.post175+gitc390a93}
 # - {TAB_TYPE: optics}
 # - {SOURCE: gamma.simtel.gz}
-tel_description tel_type tel_subtype mirror_area mirror_type num_mirror_tiles effective_focal_length
+tel_description tel_type tel_subtype mirror_area mirror_type num_mirror_tiles equivalent_focal_length
 MST-SCT MST SCT 73.3475723267 SC 2 5.58629989624
 SST-GCT SST GCT 12.5663709641 SC 2 2.28299999237
 LST LST "" 386.73324585 DC 198 28.0
