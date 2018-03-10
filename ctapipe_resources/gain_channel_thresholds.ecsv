@@ -1,0 +1,13 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: cam_id, datatype: string}
+# - {name: gain_threshold_pe, datatype: int64, description: High-gain channel threshold where switch should occur}
+# meta: !!omap
+# - {ORIGIN: 'Tino Michael''s original estimates, from prepare_event.py'}
+# - {TELESCOP: CTA}
+# schema: astropy-2.0
+cam_id gain_threshold_pe
+ASTRICam 14
+LSTCam 100
+NectarCam 190
