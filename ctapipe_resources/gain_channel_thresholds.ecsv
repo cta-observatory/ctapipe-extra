@@ -11,3 +11,6 @@ cam_id gain_threshold_pe
 ASTRICam 14
 LSTCam 100
 NectarCam 190
+CHEC 4000
+DigiCam 4000
+FlashCam 100000
