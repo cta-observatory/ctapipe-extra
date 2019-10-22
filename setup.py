@@ -9,5 +9,5 @@ setup(
     name='ctapipe-extra',
     version=version['__version__'],
     packages=find_packages(),
-    package_data={'ctapipe_resources': '*'},
+    package_data={'ctapipe_resources': ['*']},
 )
